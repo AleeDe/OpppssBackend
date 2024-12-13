@@ -3,6 +3,7 @@ package com.aleedev.SecuityCheck.Controller;
 import com.aleedev.SecuityCheck.Model.ContactUs;
 import com.aleedev.SecuityCheck.Service.ContactSer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
