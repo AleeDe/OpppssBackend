@@ -10,7 +10,7 @@ import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://campus-connect-hazel.vercel.app/")
 public class studentController {
 
     @Autowired

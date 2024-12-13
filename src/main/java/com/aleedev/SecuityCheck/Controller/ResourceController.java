@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/resources")
+@CrossOrigin(origins = "https://campus-connect-hazel.vercel.app/")
 public class ResourceController {
 
     @Autowired
