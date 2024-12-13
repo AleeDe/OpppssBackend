@@ -27,7 +27,7 @@ public class ResourcesService {
             FileMetadata fileMetadata = new FileMetadata();
             fileMetadata.setName(file.getOriginalFilename());
             fileMetadata.setData(file.getBytes());
-//            fileMetadata.setHeader(file.getContentType()); // Ensure header is set correctly
+            fileMetadata.setHeader(file.getContentType()); // Ensure header is set correctly
             fileMetadataList.add(fileMetadata);
         }
 

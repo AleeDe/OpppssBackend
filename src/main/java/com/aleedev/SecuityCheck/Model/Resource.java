@@ -7,6 +7,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.annotation.Collation;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -23,6 +24,7 @@ public class Resource {
     private String subject;
     private String semester;
     private String postedby;
+    private String date;
 
     public String getStringId() {
         return id != null ? id.toHexString() : null;

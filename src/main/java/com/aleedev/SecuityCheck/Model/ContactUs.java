@@ -5,25 +5,21 @@ import lombok.NonNull;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Component;
 
 
 @Data
-@Document(collection = "Job/Intership_Post")
-public class JIPost {
+@Document (collection = "Contactus")
+public class ContactUs {
     @Id
     private ObjectId id;
 
-    private String stringId; // Transient field for frontend use
-
-    @NonNull
-    private String formTitle;
-    private String title;
+//    @NonNull
+    private String name;
+    private String email;
     private String desc;
     private String postedby;
     private String date;
 
-    public String getStringId() {
-        return id != null ? id.toHexString() : null;
-    }
 
 }
