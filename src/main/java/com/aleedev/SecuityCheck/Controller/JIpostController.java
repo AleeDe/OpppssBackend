@@ -12,7 +12,7 @@ import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "https://campus-connect-hazel-rose.vercel.app/")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class JIpostController {
 
     @Autowired
