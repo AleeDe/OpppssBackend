@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/resources")
-@CrossOrigin(origins = "http://44.223.145.60:3000/")
+@CrossOrigin(origins = "http://18.212.118.7:3000/")
 public class ResourceController {
 
     @Autowired
