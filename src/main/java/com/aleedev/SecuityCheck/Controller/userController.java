@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "https://campus-connect-hazel-rose.vercel.app/")
+@CrossOrigin(origins = "http://localhost:3000/")
 @RestController
 public class userController {
     @Autowired
