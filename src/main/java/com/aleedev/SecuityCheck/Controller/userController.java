@@ -9,8 +9,9 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://44.223.145.60:3000/")
+
 @RestController
+@CrossOrigin(origins = "http://18.212.118.7:3000/")
 public class userController {
     @Autowired
     UserServices userServices;
