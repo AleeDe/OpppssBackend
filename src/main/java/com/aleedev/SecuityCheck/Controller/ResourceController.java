@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/resources")
-@CrossOrigin(origins = "http://18.212.118.7:3000/")
+@CrossOrigin(origins = "http://campusconnectpro.s3-website-us-east-1.amazonaws.com/")
 public class ResourceController {
 
     @Autowired
